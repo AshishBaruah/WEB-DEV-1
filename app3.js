@@ -150,16 +150,23 @@ console.log(x10);
 x10.splice(2,1,"DEC");
 console.log(x10);
 //  april is deleted
+//---------------------------------------------------
+//  sort method sorts the elements of an array in place. and returns the sorted array.
+//  the default order is ascending.
 
 let x11 = x10.sort();
 console.log(x11);
 
+//  tostring() method
+//  reduce()
+//  filter()
 
+//---------------------------------------------------
 
+console.log(['hi,bye']===['hi','bye']);
+//  above code gives false
 
+console.log([1]===[1]);
+console.log([1]==[1]);
 
-
-
-
-
-
+//  In js the references in memory are compared
